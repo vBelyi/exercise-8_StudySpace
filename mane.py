@@ -8,4 +8,5 @@ dict2 = {'Renault': 'Megan', 'Pegeout': '505'}
 dict3 = {'Dacia': 'Logan', 'Volvo': 'S60'}
 dict4 = {'Apple': 'fruit', 'Potato': 'vegetable'}
 dict5 = {'Rabbit':'animal', 'Jake': 'human' }
-print(mane_function(dict1, dict2, dict3, dict4, dict5))
+dict6 = {'Asus':'TUF gaming', 'DELL':'Latitude'}
+print(mane_function(dict1, dict2, dict3, dict4, dict5, dict6))
