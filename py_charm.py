@@ -2,15 +2,15 @@ from random import randint
 number = randint(1,1000)
 count = 0
 for run in range(6):
-    your_number = int(input('Давай зіграєм у гру. Введи своє число: '))
+    your_number = int(input('Input your number: '))
     count +=1
     if your_number > number:
-        print('Ніііі, правильне число меньше')
+        print('No, the right is lower')
     elif your_number < number:
-        print('Ніііі, правильне число більше')
+        print('No, the right is bigger')
     elif your_number == number:
-        print(f'Перемога, ти відгадав число!!!Кількість спроб: {count}.')
+        print(f'You win and used tries: {count}.')
         break
 
     if count == n and your_number !=number:
-        print('Твої спроби закінчились, ти програв!')
+        print('You lost')
