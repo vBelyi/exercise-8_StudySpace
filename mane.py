@@ -23,4 +23,3 @@ def test_function(month):
     else:
         return 'There is only 12 monthes in the year'
 print(test_function(int(input('Click here to input a number of month to know a time of the year: '))))
-
