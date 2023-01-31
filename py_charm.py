@@ -1,8 +1,7 @@
 from random import randint
 number = randint(1,1000)
-n = 10
 count = 0
-for run in range(n):
+for run in range(6):
     your_number = int(input('Давай зіграєм у гру. Введи своє число: '))
     count +=1
     if your_number > number:
