@@ -18,6 +18,7 @@ def test_function(month):
     elif month == 6 or month == 7 or month == 8:
         return 'Summer'
     elif month == 9 or month == 10 or month == 11:
+        return 'Autumn'
     else:
         return 'There is only 12 monthes in the year'
 print(test_function(int(input('Click here to input a number of month to know a time of the year: '))))
