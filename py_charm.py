@@ -1,5 +1,5 @@
 from random import randint
-number = randint(1,100)
+number = randint(1,1000)
 n = 6
 count = 0
 for run in range(n):
