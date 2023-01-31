@@ -12,5 +12,5 @@ for run in range(6):
         print(f'You win and used tries: {count}.')
         break
 
-    if count == n and your_number !=number:
+    if count == 6 and your_number !=number:
         print('You lost')
